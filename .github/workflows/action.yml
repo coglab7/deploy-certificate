@@ -49,7 +49,6 @@ jobs:
           --key-file ~/certs/${domain}/privkey.pem --fullchain-file ~/certs/${domain}/fullchain.pem
         done
 
-
     - name: Install Python dependencies
       run: pip install -r requirements.txt
 
